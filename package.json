@@ -1,0 +1,17 @@
+{
+  "name": "mqworker",
+  "version": "1.0.0",
+  "description": "general service",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "jm-server"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jm-log4js": "^1.1.1",
+    "jm-ms": "^1.0.0",
+    "jm-server": "^1.0.8",
+    "mqtt": "^2.13.0"
+  },
+  "devDependencies": {}
+}
